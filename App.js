@@ -10,8 +10,8 @@ import SettingsScreen from './screens/SettingsScreen';
 import ReviewScreen from './screens/ReviewScreen';
 
 const Nav = TabNavigator({
-  auth: { screen: AuthScreen },
   welcome: { screen: WelcomeScreen },
+  auth: { screen: AuthScreen },
   main: {
     screen: TabNavigator({
       map: { screen: MapScreen },

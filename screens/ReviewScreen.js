@@ -7,7 +7,14 @@ export default class ReviewScreen extends Component {
     const { navigate } = navigation;
     return {
       title: 'Review Jobs',
-      headerRight: <Button title="Settings" onPress={() => navigate('setting')} />
+      headerRight: (
+        <Button
+          backgroundColor="rgba(0,0,0,0)"
+          color="rgba(0, 122, 255, 1)"
+          title="Settings"
+          onPress={() => navigate('setting')}
+        />
+      )
     };
   };
   render() {
